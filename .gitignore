@@ -1,0 +1,9 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+C:\Users\appus\OneDrive\Desktop\Automation-test-store-v2\.env

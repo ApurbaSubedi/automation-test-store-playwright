@@ -1,0 +1,22 @@
+    {
+    "registration": {
+        "firstName": "Apurba",
+        "lastName": "Subedi",
+        "email": "blbalublablu{{timestamp}}@example.com",
+        "telephone": "9841234567",
+        "fax": "",
+        "company": "TC",
+        "address1": "Kathmandu, Nepal",
+        "address2": "Bagmati Province",
+        "city": "Kathmandu",
+        "postcode": "44600",
+        "loginName": "blablublablu{{timestamp}}",
+        "password": "Test@12345",
+        "passwordConfirm": "Test@12345"
+    },
+    "products": {
+        "perfume1": "OBSESSION NIGHT PERFUME",
+        "perfume2": "SECRET OBSESSION PERFUME"
+    }
+
+    }

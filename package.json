@@ -1,0 +1,22 @@
+{
+  "name": "automation-teststore-tests",
+  "version": "1.0.0",
+  "description": "Automation testing for automationteststore.com",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:report": "npx playwright test && npx playwright show-report",
+    "report": "npx playwright show-report",
+    "report:open": "npx playwright show-report --host 0.0.0.0 --port 9323"
+  },
+  "keywords": ["playwright", "automation", "testing"],
+  "author": "ApurbaSubedi",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^20.10.0",
+    "dotenv": "^16.3.1",
+    "typescript": "^5.3.3"
+  }
+}
