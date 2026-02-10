@@ -6,7 +6,6 @@ A comprehensive end-to-end testing framework for [Automation Test Store](https:/
 
 - [Overview](#overview)
 - [Features](#features)
-- [Project Structure](#project-structure)
 - [Tech Stack](#tech-stack)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
@@ -30,25 +29,7 @@ This project provides automated UI testing for the Automation Test Store e-comme
 -  **CI/CD Ready** - GitHub Actions workflow included
 -  **Data-Driven** - External test data management via JSON fixtures
 
-##  Project Structure
 
-```
-automation-test-store-playwright/
-├── .github/
-│   └── workflows/
-│       └── playwright.yml     # GitHub Actions CI/CD workflow
-├── fixtures/
-│   └── testData.json          # Test data (user credentials, products, etc.)
-├── tests/
-│   ├── 01-register-login.spec.ts        # Registration & login tests
-│   └── 02-search-add-delete-cart.spec.ts # Cart management tests
-├── utils/
-│   └── helpers.ts             # Utility functions (timestamp generation, etc.)
-├── .gitignore
-├── package.json
-├── playwright.config.ts       # Playwright configuration
-└── tsconfig.json              # TypeScript configuration
-```
 
 ## Tech Stack
 
@@ -142,3 +123,4 @@ npx playwright test 01-register-login.spec.ts
 | Logout | User logout verification |
 
 ```
+
