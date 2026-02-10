@@ -15,8 +15,15 @@
         "passwordConfirm": "Test@12345"
     },
     "products": {
-        "perfume1": "OBSESSION NIGHT PERFUME",
-        "perfume2": "SECRET OBSESSION PERFUME"
+        "perfume1": "Obsession Night Perfume",
+        "perfume2": "Secret Obsession Perfume"
+    },
+    "text":{"maintext_register":"Your Account Has Been Created!",
+            "maintext_login":"My Account",
+            "maintext_checkout_confirmation": "Checkout Confirmation",
+            "maintext_checkout":"Your Order Has Been Processed!",
+            "maintext_logout":"Account Logout"
+
     }
 
     }
