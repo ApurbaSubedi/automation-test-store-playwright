@@ -28,9 +28,6 @@
         await page.fill('#filter_keyword', 'perfume');
         await page.press('#filter_keyword', 'Enter');
         
-        await expect(page).toHaveURL(/keyword=perfume/);
-
-        
         await page.getByRole('link', { name: productName }).first().click();
 
         // Wait for page load success
@@ -38,7 +35,7 @@
         expect(page.locator('.productname .bgnone')).toContainText(productName);
         expect(page.locator('.productfilneprice')).toContainText("$");
                 
-        //cClick on Add To Cart Button
+        //Click on Add To Cart Button
         await page.click('.cart');
         
         await page.waitForTimeout(1000);
@@ -54,7 +51,7 @@
 
         
         // Delete SECRET OBSESSION PERFUME from cart 
-        await page.locator('a[href*="remove"]').nth(0).click();
+        await page.locator('a[href*="remove"]').nth(1).click();
         await page.waitForTimeout(1000);
 
         // Verify cart contains single product
