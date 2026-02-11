@@ -88,7 +88,7 @@ The `playwright.config.ts` includes:
 | `baseURL` | `https://automationteststore.com` | Target application URL |
 | `screenshot` | `on` | Always capture screenshots |
 | `video` | `on` | Always record videos |
-| `trace` | `retain-on-failure` | Capture trace on failures |
+
 
 ## Running Tests
 
@@ -123,4 +123,5 @@ npx playwright test 01-register-login.spec.ts
 | Logout | User logout verification |
 
 ```
+
 
